@@ -23,8 +23,4 @@ Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell t
 
 ### Screenshot
 
-![desktop](./Design/Landing%20Page%20-%20Desktop%20View.png)
-![mobile](./Design/Landing%20Page%20-%20Mobile%20View.png)
-
-![desktop signup](./Design/Sign%20Up%20Page%20-%20Desktop%20View.png)
-![mobile signup](./Design/Sign%20Up%20Page%20-%20Mobile%20View.png)
+![desktop](./Design/Screenshot.png)
