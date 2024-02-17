@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <!-- for the font -->
+    <link rel="preconnect"
+      href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet">
+    <!-- for styling -->
+    <link rel="stylesheet"
+      href="sass/main.css">
+    <title>Sign Up</title>
+  </head>
+
+  <body>
+
+    <main>
+      <div class="row">
+        <div class="inputs">
+          <div class="content">
+            <div class="logo">
+              <h4>Fiber</h4>
+            </div>
+            <h1>Create your Fiber account</h1>
+            <form>
+              <div class="form-input">
+                <label for="name">Your name</label>
+                <input type="text"
+                  id="name"
+                  placeholder="John Doe">
+              </div>
+              <div class="form-input">
+                <label for="email">E-mail</label>
+                <input type="text"
+                  id="email"
+                  placeholder="john@example.com">
+              </div>
+              <div class="form-input">
+                <label for="password">Password</label>
+                <input type="password"
+                  id="password"
+                  placeholder="At least 8 characters">
+                <img src="./Assets/hidePassword.svg"
+                  class="show-password">
+              </div>
+              <div class="checkbox">
+                <div class="checkbox-input"></div>
+                <p>By creating an account on Fiber, you agree to the
+                  <span>Terms & Conditions.</span>
+                </p>
+              </div>
+              <button type="submit">
+                Create Fiber Account
+              </button>
+              <p>Already have an account? <span>Sign in</span></p>
+            </form>
+          </div>
+        </div>
+        <div class="content-image">
+          <div class="image">
+            <img class="active"
+              src="./Assets/SignUpImage.png">
+            <img class=""
+              src="./Assets/page.png">
+            <img class=""
+              src="./Assets/hero.png">
+          </div>
+          <div class="text">
+            <h2>Unparalleled Templates</h2>
+            <p>Crafted by a team of professional designers, our
+              templates are eunparalleled in the market.</p>
+          </div>
+          <div class="panigination">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="signup.js"></script>
+  </body>
+
+</html>

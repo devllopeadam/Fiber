@@ -1,0 +1,14 @@
+@use "./variables" as *;
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.c-gray {
+  color: $gray_color;
+}
+
+.c-blue {
+  color: $blue_color;
+}
